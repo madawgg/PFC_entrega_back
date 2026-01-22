@@ -25,7 +25,7 @@ If you need to change the default port:
 - To see logs in real time:
 ```php artisan log:tail```
 
-
-Se que es mala practica subir el .env al repositorio publico, 
-lo he hecho por comodidad si quereis montar la aplicacion en local. 
-En la aplicacion desplegada tengo otra APP_KEY y diferente configuracion.
+To facilitate the review and local execution of the project, 
+an .env file has been included in the repository.
+The production environment uses a completely different configuration, 
+including a different APP_KEY.
